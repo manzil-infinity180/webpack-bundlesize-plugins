@@ -46,3 +46,5 @@ flowchart TD
 - Every Webpack plugins must have `apply` method in them which is called by webpack and webpack gives the compiler instance as argument to that method.
 - A plugins can be class based or function based but if you are building using fuction based then the arugment is again the compiler instance.
 - We’re going to use the `compiler.hooks.done` hook which is emitted when the compilation work is done and the bundled file is generated
+
+<img src="overview.png" src="webpack-plugins-overview" width="720" />
