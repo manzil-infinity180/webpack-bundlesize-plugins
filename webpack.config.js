@@ -17,6 +17,6 @@ module.exports = {
         ],
       },
     plugins: [new bundleSizePlugins({
-        sizeLimit: 7
+        sizeLimit: 4
     }), new HtmlWebpackPlugin()]
 }
